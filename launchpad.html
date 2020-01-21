@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                <link type="text/css" rel="stylesheet" href="l.css">
+                <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+                <title>LaunchpadNET</title>
+            </head>
+<body>
+
+        <script type="text/javascript">
+
+            $(document).ready(function(){
+
+                var height = $(window).height();
+            
+                $('.lateral').height(height);
+
+
+
+                var audioElement1 = document.createElement('audio');
+
+                audioElement1.setAttribute('src', 'audios/pred/SYNTHS AND LASERS/SYNTH (3).wav');
+
+                var audioElement12 = document.createElement('audio');
+
+                audioElement12.setAttribute('src', 'audios/pred/SYNTHS AND LASERS/_LOOP_ (1).wav');
+
+                var audioElement13 = document.createElement('audio');
+
+                audioElement13.setAttribute('src', 'audios/pred/SYNTHS AND LASERS/_LOOP_ (2).wav');
+
+                var audioElement14 = document.createElement('audio');
+
+                audioElement14.setAttribute('src', 'audios/pred/SYNTHS AND LASERS/_LOOP_ (3).wav');
+
+                var audioElement15 = document.createElement('audio');
+
+                audioElement15.setAttribute('src', 'audios/pred/SYNTHS AND LASERS/REESE_LAZER (1).wav');
+
+                var audioElement16 = document.createElement('audio');
+
+                audioElement16.setAttribute('src', 'audios/pred/SYNTHS AND LASERS/SYNTH (1).wav');
+
+                var audioElement17 = document.createElement('audio');
+
+                audioElement17.setAttribute('src', 'audios/pred/SYNTHS AND LASERS/SYNTH (2).wav');
+
+                var audioElement18 = document.createElement('audio');
+
+                audioElement18.setAttribute('src', 'audios/pred/SYNTHS AND LASERS/SYNTH (11).wav');
+
+                var audioElement19 = document.createElement('audio');
+
+                audioElement19.setAttribute('src', 'audios/pred/SYNTHS AND LASERS/SYNTH (10).wav');
+
+                var audioElement10 = document.createElement('audio');
+
+                audioElement10.setAttribute('src', 'audios/pred/SYNTHS AND LASERS/SYNTH (17).wav');
+
+                var audioElement1q = document.createElement('audio');
+
+                audioElement1q.setAttribute('src', 'audios/pred/BASSLINES/DUBSTEP_BASSLINES.wav');
+
+                var audioElement1w = document.createElement('audio');
+
+                audioElement1w.setAttribute('src', 'audios/pred/BASSLINES/GLITCHED_BABY TRANSFORMER.wav');
+
+                var audioElement1e = document.createElement('audio');
+
+                audioElement1e.setAttribute('src', 'audios/pred/BASSLINES/GROWL_REESE (4).wav');
+
+                var audioElement1r = document.createElement('audio');
+
+                audioElement1r.setAttribute('src', 'audios/pred/BASSLINES/HUNGRY_TRANSFORMER.wav');
+
+                var audioElement1t = document.createElement('audio');
+
+                audioElement1t.setAttribute('src', 'audios/pred/BASSLINES/REESE_ACOUSTIC (4).wav');
+
+                var audioElement1y = document.createElement('audio');
+
+                audioElement1y.setAttribute('src', 'audios/pred/BASSLINES/NEUROBASSLINES (1).wav');
+
+                var audioElement1u = document.createElement('audio');
+
+                audioElement1u.setAttribute('src', 'audios/pred/DrumAndBass/DRUM AND BASS BEAT1/BASSDRUM_DNB_1.wav');
+
+                var audioElement1i = document.createElement('audio');
+
+                audioElement1i.setAttribute('src', 'audios/pred/DrumAndBass/DRUM AND BASS BEAT1/HIHAT_CLOSE2_DNB_1.wav');
+
+                var audioElement1o = document.createElement('audio');
+
+                audioElement1o.setAttribute('src', 'audios/pred/DrumAndBass/DRUM AND BASS BEAT1/HIHAT_DNB_1.wav');
+
+                var audioElement1p = document.createElement('audio');
+
+                audioElement1p.setAttribute('src', 'audios/pred/DrumAndBass/DRUM AND BASS BEAT3/BASSDRUM_DNB_2.wav');
+
+                var audioElement1a = document.createElement('audio');
+
+                audioElement1a.setAttribute('src', 'audios/pred/DrumAndBass/DRUM AND BASS BEAT3/HIHAT_CLOSE_DNB_2.wav');
+
+                var audioElement1s = document.createElement('audio');
+
+                audioElement1s.setAttribute('src', 'audios/pred/DrumAndBass/DRUM AND BASS BEAT3/HIHAT_OPEN_DNB_2.wav');
+
+                var audioElement1d = document.createElement('audio');
+
+                audioElement1d.setAttribute('src', 'audios/pred/DrumAndBass/DRUM AND BASS BEAT3/SNARE_DNB_2.wav');
+
+                var audioElement1f = document.createElement('audio');
+
+                audioElement1f.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 2/GLITCH_HOP_HI HAT.wav');
+
+                var audioElement1g = document.createElement('audio');
+
+                audioElement1g.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 2/GLITCH_HOP_HI HAT2.wav');
+
+                var audioElement1h = document.createElement('audio');
+
+                audioElement1h.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 2/GLITCH_HOP_IDK.wav');
+
+                var audioElement1j = document.createElement('audio');
+
+                audioElement1j.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 2/GLITCH_HOP_IDK2.wav');
+
+                var audioElement1k = document.createElement('audio');
+
+                audioElement1k.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 2/GLITCH_HOP_KICK.wav');
+
+                var audioElement1l = document.createElement('audio');
+
+                audioElement1l.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 2/LITCH_HOP_SNARE.wav');
+
+                var audioElement1ñ = document.createElement('audio');
+
+                audioElement1ñ.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 2/GLITCH_HOP_TOM.wav');
+
+                var audioElement1z = document.createElement('audio');
+
+                audioElement1z.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 2/GLITCH_HOP_OPEN_HIHAT.wav');
+
+                var audioElement1x = document.createElement('audio');
+
+                audioElement1x.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 2/EXAMPLE_GLITCH_HOP_LOOP.wav');
+
+                var audioElement1c = document.createElement('audio');
+
+                audioElement1c.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 3/GLITCH LOOP.wav');
+
+                var audioElement1v = document.createElement('audio');
+
+                audioElement1v.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 3/GLITCH_HI HAts.wav');
+
+                var audioElement1b = document.createElement('audio');
+
+                audioElement1b.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 3/GLITCH_KICK.wav');
+
+                var audioElement1n = document.createElement('audio');
+
+                audioElement1n.setAttribute('src', 'audios/pred/DUBSTEP_Glith Hop/DUBSTEP_GLITCH HOP BEAT 3/GLITCH_SNARE.wav');
+
+                $('#1').click(function() {
+
+                    audioElement1.play();
+
+                });
+
+                $('#2').click(function() {
+
+                audioElement12.play();
+
+                });
+
+                $('#3').click(function() {
+
+                audioElement13.play();
+
+                });
+
+                $('#4').click(function() {
+
+                audioElement14.play();
+
+                });
+
+                $('#5').click(function() {
+
+                audioElement15.play();
+
+                });
+
+                $('#6').click(function() {
+
+                audioElement16.play();
+
+                });
+
+                $('#7').click(function() {
+
+                audioElement17.play();
+
+                });
+
+                $('#8').click(function() {
+
+                audioElement18.play();
+
+                });
+
+                $('#9').click(function() {
+
+                audioElement19.play();
+
+                });
+
+                $('#0').click(function() {
+
+                audioElement10.play();
+
+                });
+
+                $('#q').click(function() {
+
+                audioElement1q.play();
+
+                });
+
+                $('#w').click(function() {
+
+                audioElement1w.play();
+
+                });
+
+                $('#e').click(function() {
+
+                audioElement1e.play();
+
+                });
+
+                $('#r').click(function() {
+
+                audioElement1r.play();
+
+                });
+
+                $('#t').click(function() {
+
+                audioElement1t.play();
+
+                });
+
+                $('#y').click(function() {
+
+                audioElement1y.play();
+
+                });
+
+                $('#u').click(function() {
+
+                audioElement1u.play();
+
+                });
+
+                $('#i').click(function() {
+
+                audioElement1i.play();
+
+                });
+
+                $('#o').click(function() {
+
+                audioElement1o.play();
+
+                });
+
+                $('#p').click(function() {
+
+                audioElement1p.play();
+
+                });
+
+                $('#a').click(function() {
+
+                audioElement1a.play();
+
+                });
+
+                $('#s').click(function() {
+
+                audioElement1s.play();
+
+                });
+
+                $('#d').click(function() {
+
+                audioElement1d.play();
+
+                });
+
+                $('#f').click(function() {
+
+                audioElement1f.play();
+
+                });
+
+                $('#g').click(function() {
+
+                audioElement1g.play();
+
+                });
+
+                $('#h').click(function() {
+
+                audioElement1h.play();
+
+                });
+
+                $('#j').click(function() {
+
+                audioElement1j.play();
+
+                });
+
+                $('#k').click(function() {
+
+                audioElement1k.play();
+
+                });
+
+                $('#l').click(function() {
+
+                audioElement1l.play();
+
+                });
+
+                $('#ñ').click(function() {
+
+                audioElement1ñ.play();
+
+                });
+
+                $('#z').click(function() {
+
+                audioElement1z.play();
+
+                });
+
+                $('#x').click(function() {
+
+                audioElement1x.play();
+
+                });
+
+                $('#c').click(function() {
+
+                audioElement1c.play();
+
+                });
+
+                $('#v').click(function() {
+
+                audioElement1v.play();
+
+                });
+
+                $('#b').click(function() {
+
+                audioElement1b.play();
+
+                });
+
+                $('#n').click(function() {
+
+                audioElement1n.play();
+
+                });
+
+
+                $("body").keydown(function(event){
+
+                    if(String.fromCharCode(event.which)=="1"){
+
+                        audioElement1.play();
+
+                        $('#1').attr("class","button btn btn-primary");
+
+                        
+
+
+                            function myFunction () {
+
+                                $('#1').attr("class","button btn btn-light");
+
+                            }
+
+                            setTimeout(myFunction, 100);
+
+
+                    }
+
+                    if(String.fromCharCode(event.which)=="2"){
+
+                        audioElement12.play();
+
+                        $('#2').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#2').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="3"){
+
+                        audioElement13.play();
+
+                        $('#3').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#3').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="4"){
+
+                        audioElement14.play();
+
+                        $('#4').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#4').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="5"){
+
+                        audioElement15.play();
+
+                        $('#5').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#5').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="6"){
+
+                        audioElement16.play();
+
+                        $('#6').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#6').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="7"){
+
+                        audioElement17.play();
+
+
+                        $('#7').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#7').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="8"){
+
+                        audioElement18.play();
+
+                        $('#8').attr("class","button btn btn-primary");
+
+                        
+
+
+                            function myFunction () {
+
+                                $('#8').attr("class","button btn btn-light");
+
+                            }
+
+                            setTimeout(myFunction, 100);
+                                        
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="9"){
+
+                        audioElement19.play();
+
+                        $('#9').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#9').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="0"){
+
+                        audioElement10.play();
+
+                        $('#0').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#0').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="Q"){
+
+                        audioElement1q.play();
+
+                        $('#q').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#q').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="W"){
+
+                        audioElement1w.play();
+
+                        $('#w').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#w').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="E"){
+
+                        audioElement1e.play();
+
+                        $('#e').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#e').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="R"){
+
+                        audioElement1r.play();
+
+                        $('#r').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#r').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="T"){
+
+                        audioElement1t.play();
+
+                        $('#t').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#t').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="Y"){
+
+                        audioElement1y.play();
+
+                        $('#y').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#y').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="U"){
+
+                        audioElement1u.play();
+
+                        $('#u').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#u').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="I"){
+
+                        audioElement1i.play();
+
+                        $('#i').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#i').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="O"){
+
+                        audioElement1o.play();
+
+                        $('#o').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#o').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="P"){
+
+                        audioElement1p.play();
+
+                        $('#p').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#p').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="A"){
+
+                        audioElement1a.play();
+
+                        $('#a').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#a').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="S"){
+
+                        audioElement1s.play();
+
+                        $('#s').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#s').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="D"){
+
+                        audioElement1d.play();
+
+                        $('#d').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#d').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="F"){
+
+                        audioElement1f.play();
+
+                        $('#f').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#f').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="G"){
+
+                        audioElement1g.play();
+
+                        $('#g').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#g').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="H"){
+
+                        audioElement1h.play();
+
+                        $('#h').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#h').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="J"){
+
+                        audioElement1j.play();
+
+                        $('#j').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#j').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="K"){
+
+                        audioElement1k.play();
+
+                        $('#k').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#k').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="L"){
+
+                        audioElement1l.play();
+
+                        $('#l').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#l').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="Ñ"){
+
+                        audioElement1ñ.play();
+
+                        $('#ñ').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#ñ').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="Z"){
+
+                        audioElement1z.play();
+
+                        $('#z').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#z').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="X"){
+
+                        audioElement1x.play();
+
+                        $('#x').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#x').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="C"){
+
+                        audioElement1c.play();
+
+                        $('#c').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#c').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="V"){
+
+                        audioElement1v.play();
+
+                        $('#v').attr("class","button btn btn-primary");
+
+
+
+
+function myFunction () {
+
+    $('#v').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="B"){
+
+                        audioElement1b.play();
+
+                        $('#b').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#b').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="N"){
+
+                        audioElement1n.play();
+
+                        $('#n').attr("class","button btn btn-primary");
+
+                        
+
+
+function myFunction () {
+
+    $('#n').attr("class","button btn btn-light");
+
+}
+
+setTimeout(myFunction, 100);
+
+
+                        }
+
+                        if(String.fromCharCode(event.which)=="M"){
+
+                            var audioElement1m = document.createElement('audio');
+
+                            audioElement1m.setAttribute('src', 'audios/pred/DrumAndBass/DRUM AND BASS BEAT3/BASSDRUM_DNB_2.wav');
+
+                            audioElement1m.play();
+
+
+
+
+                            }
+
+                }); 
+
+
+            
+
+
+
+
+                  
+            });
+            
+        </script>
+
+        <div class="container-fluid">
+
+                                        <div class="row">
+                                          <div class="col-2 lateral">
+
+                                                        <div class="row"> 
+
+                                                                        <div class="col-12">
+
+                                                                                        <!-- <a class='btn btn-danger' href='logout.php'>LOGOUT</a>
+
+                                                                                        <button class="b2 btn btn-info">Seleccionar audios</button>
+
+                                                                                        <br></br>
+                                                                                        
+
+                                                                                                <input name="tecla" type="text" class="form-control" placeholder="TECLA">
+
+                                                                                                <input type='file' name='fileAudio' id='fileAudio'></input>
+                                                                                                
+                                                                                                <br></br>
+                                                                                                
+                                                                                                <input type='submit' id='addAudio' value='GUARDAR AUDIO' class='btn btn-success btn-lg'/></input> -->
+                                                                                        
+
+
+                                                                        </div>
+
+                                                        </div>
+
+                                                        
+                                            
+                                          </div>
+                                          <div class="col-8 centro">
+
+
+                                                        <div class="row"> 
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="1" class="button btn btn-light">1</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="2" class="button btn btn-light">2</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="3" class="button btn btn-light">3</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="4" class="button btn btn-light">4</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="5" class="button btn btn-light">5</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="6" class="button btn btn-light">6</button>
+                                                                        </div>
+
+
+
+
+                                                        </div>
+
+                                                        <div class="row"> 
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="7" class="button btn btn-light">7</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="8" class="button btn btn-light">8</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="9" class="button btn btn-light">9</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="0" class="button btn btn-light">0</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="q" class="button btn btn-light">Q</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="w" class="button btn btn-light">W</button>
+                                                                        </div>
+
+
+
+
+                                                        </div>
+
+                                                        <div class="row"> 
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="e" class="button btn btn-light">E</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="r" class="button btn btn-light">R</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="t" class="button btn btn-light">T</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="y" class="button btn btn-light">Y</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="u" class="button btn btn-light">U</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="i" class="button btn btn-light">I</button>
+                                                                        </div>
+
+
+
+
+
+                                                        </div>
+
+                                                        <div class="row"> 
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="o" class="button btn btn-light">O</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="p" class="button btn btn-light">P</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="a" class="button btn btn-light">A</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="s" class="button btn btn-light">S</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="d" class="button btn btn-light">D</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="f" class="button btn btn-light">F</button>
+                                                                        </div>
+
+
+
+
+
+                                                        </div>
+
+                                                        <div class="row"> 
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="g" class="button btn btn-light">G</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="h" class="button btn btn-light">H</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="j" class="button btn btn-light">J</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="k" class="button btn btn-light">K</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="l" class="button btn btn-light">L</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="ñ" class="button btn btn-light">Ñ</button>
+                                                                        </div>
+
+
+
+
+                                                        </div>
+
+                                                        <div class="row"> 
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="z" class="button btn btn-light">Z</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="x" class="button btn btn-light">X</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="c" class="button btn btn-light">C</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="v" class="button btn btn-light">V</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="b" class="button btn btn-light">B</button>
+                                                                        </div>
+
+                                                                        <div class="col-sm">
+
+                                                                                        <button id="n" class="button btn btn-light">N</button>
+                                                                        </div>
+
+
+
+
+
+                                                        </div>
+                                            
+                                          </div>
+                                          <div class="col-2 lateral">
+                                            
+                                          </div>
+                                        </div>
+
+        </div>
+    
+</body>
+</html>
