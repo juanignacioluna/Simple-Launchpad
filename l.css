@@ -4,7 +4,9 @@
     
 }
 
-.lateral, body{
+body{background: gray;}
+
+.lateral{
     background-color: gray;
     
 }
